@@ -37,5 +37,6 @@
     "<C-a>": false,
     "<C-f>": false
   },
-  "vim.highlightedyank.enable":true
+"vim.highlightedyank.enable": true,
+"terminal.integrated.env.windows": {}
 }
