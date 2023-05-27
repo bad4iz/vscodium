@@ -1,0 +1,28 @@
+{
+    // neovim
+    // neovim-related stuff
+    "editor.lineNumbers": "relative",
+    "window.zoomLevel": 1,
+    "sync.quietSync": false,
+    "syncSettings.ignoredExtensions": [],
+    "sync.gist": "44ff874fccde1144ecdc29b9df49e327",
+    "editor.fontFamily": "Fisa code, Fira code",
+    "tabnine.experimentalAutoImports": true,
+    "files.autoSave": "afterDelay",
+    "[javascript]": {
+        "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+    },
+    "diffEditor.ignoreTrimWhitespace": false,
+    "terminal.integrated.env.windows": {},
+    "sync.autoDownload": false,
+    "sync.forceDownload": true,
+    "sync.removeExtensions": false,
+    "sync.syncExtensions": false,
+    "syncSettings.additionalFiles": [
+
+    ],
+    "syncSettings.hooks.postDownload": "",
+    "syncSettings.crons": {
+        
+    }
+}
