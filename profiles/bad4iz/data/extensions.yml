@@ -1,5 +1,9 @@
-disabled: []
+disabled:
+  - id: asvetliakov.vscode-neovim
+    uuid: caf8995c-5426-4bf7-9d01-f7968ebd49bb
 enabled:
+  - id: vscodevim.vim
+    uuid: d96e79c6-8b25-4be3-8545-0e0ecefcae03
   - id: Vue.volar
     uuid: a5223b43-8621-4351-a14e-3d560f85f277
   - id: zokugun.cron-tasks
