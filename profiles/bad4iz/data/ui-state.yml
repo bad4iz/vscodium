@@ -40,7 +40,7 @@ workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   \"id\":\"workbench.view.editSessions\",\"themeIcon\":{\"id\":\"edit-sessions-\
   view-icon\"},\"name\":\"Cloud Changes\",\"isBuiltin\":true,\"views\":[]}]"
 workbench.auxiliaryBar.size: "256"
-workbench.editor.languageDetectionOpenedLanguages.global: '[["markdown",true],["lua",true],["typescriptreact",true],["json",true],["typescript",true],["wallaby-timeline",true],["javascript",true],["yaml",true],["plaintext",true],["vue",true],["jsonc",true]]'
+workbench.editor.languageDetectionOpenedLanguages.global: '[["markdown",true],["lua",true],["typescriptreact",true],["json",true],["typescript",true],["wallaby-timeline",true],["javascript",true],["yaml",true],["plaintext",true],["jsonc",true],["vue",true]]'
 workbench.explorer.views.state.hidden: '[{"id":"outline","isHidden":false},{"id":"timeline","isHidden":false},{"id":"workbench.explorer.openEditorsView","isHidden":false},{"id":"workbench.explorer.emptyView","isHidden":false},{"id":"workbench.explorer.fileView","isHidden":false},{"id":"npm","isHidden":false},{"id":"chatgpt.chatView","isHidden":false}]'
 workbench.grid.size: '{"height":770,"width":1026}'
 workbench.panel.alignment: center
