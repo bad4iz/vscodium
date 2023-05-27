@@ -1,0 +1,6 @@
+disabled: []
+enabled:
+  - id: Vue.volar
+    uuid: a5223b43-8621-4351-a14e-3d560f85f277
+  - id: zokugun.cron-tasks
+    uuid: eb05256f-c7aa-4554-95c6-1bb8e30e0cea
