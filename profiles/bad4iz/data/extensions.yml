@@ -2,6 +2,8 @@ disabled:
   - id: asvetliakov.vscode-neovim
     uuid: caf8995c-5426-4bf7-9d01-f7968ebd49bb
 enabled:
+  - id: genieai.chatgpt-vscode
+    uuid: daf35080-6889-46fc-89bf-288dce8f8ed2
   - id: HuynhDuong.nvtokyo-theme
     uuid: null
   - id: vscodevim.vim
