@@ -1,60 +1,128 @@
 {
+    "editor.cursorSurroundingLines": 10,
+    "files.autoSave": "afterDelay",
+    "genieai.enableConversationHistory": true,
     "syncSettings.crons": {
-    "review": "0 * * * *",      // every hour
-    "download": "0 9 * * *",    // at 9AM, every day
-    "upload": "0 17 * * *"      // at 5PM, every day
-},
-"files.autoSave": "afterDelay",
-"vim.sneak": true,
-  "vim.easymotion": true,
-  "vim.incsearch": true,
-  "vim.useSystemClipboard": true,
-  "vim.useCtrlKeys": true,
-  "vim.hlsearch": true,
-  "vim.insertModeKeyBindings": [
-    {
-      "before": ["j", "j"],
-      "after": ["<Esc>"]
-    }
-  ],
-  "vim.normalModeKeyBindingsNonRecursive": [
-    {
-      "before": ["<leader>", "d"],
-      "after": ["d", "d"]
+        "download": "0 9 * * *", // at 9AM, every day
+        "review": "0 * * * *", // every hour
+        "upload": "0 17 * * *" // at 5PM, every day
     },
-    {
-      "before": ["<C-n>"],
-      "commands": [":nohl"]
+    "terminal.integrated.env.windows": {},
+    "vim.easymotion": true,
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-f>": false
     },
-    {
-      "before": ["K"],
-      "commands": ["lineBreakInsert"],
-      "silent": true
-    }
-  ],
-  "vim.leader": "<space>",
-  "vim.handleKeys": {
-    "<C-a>": false,
-    "<C-f>": false
-  },
-"vim.highlightedyank.enable": true,
-"terminal.integrated.env.windows": {},
-"vim.enableNeovim": true,
-
-    "workbench.nvimColorCustomizationKeys": [
-      "tab.activeBorder",
-      "editorCursor.foreground"
+    "vim.highlightedyank.enable": true,
+    "vim.hlsearch": true,
+    "vim.incsearch": true,
+    "vim.insertModeKeyBindings": [
+        {
+            "after": [
+                "<Esc>"
+            ],
+            "before": [
+                "j",
+                "j"
+            ]
+        }
     ],
-    "vim.neovimPath": "nvim",
+    "vim.leader": "<space>",
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "after": [
+                "d",
+                "d"
+            ],
+            "before": [
+                "<leader>",
+                "d"
+            ]
+        },
+        {
+            "before": [
+                "<C-n>"
+            ],
+            "commands": [
+                ":nohl"
+            ]
+        },
+        {
+            "before": [
+                "K"
+            ],
+            "commands": [
+                "lineBreakInsert"
+            ],
+            "silent": true
+        }
+    ],
     "vim.scroll": 10,
+    "vim.sneak": true,
     "vim.statusBarColorControl": true,
     "vim.statusBarColors.insert": "#5f0000",
     "vim.statusBarColors.normal": "#4444db",
+    "vim.useCtrlKeys": true,
+    "vim.useSystemClipboard": true,
     "workbench.colorCustomizations": {
-      "statusBar.background": "#4444db",
-      "statusBar.noFolderBackground": "#4444db",
-      "statusBar.debuggingBackground": "#4444db"
+        "statusBar.background": "#4444db",
+        "statusBar.noFolderBackground": "#4444db",
+        "statusBar.debuggingBackground": "#4444db"
     },
-  
+    "vim.normalModeKeyBindings": [
+        {
+            "before": ["£"],
+            "after": ["#"]
+        },
+        {
+            "before": ["<leader>", "m"],
+            "commands": [
+                "bookmarks.toggle"
+            ]
+        },
+        {
+            "before": ["<leader>", "b"],
+            "commands": [
+                "bookmarks.list"
+            ]
+        },
+         {
+            "before":["<C-h>"],
+            "commands": [
+                "workbench.action.navigateLeft",
+            ]
+        },
+         {
+            "before":["<C-l>"],
+            "commands": [
+                "workbench.action.navigateRight",
+            ]
+        },
+        {
+            "before":["<C-j>"],
+            "commands": [
+                "workbench.action.navigateDown",
+            ]
+        },
+        {
+            "before":["<C-k>"],
+            "commands": [
+                "workbench.action.navigateUp",
+            ]
+        },
+        {
+            "before":["<S-h>"],
+            "commands": [
+                "workbench.action.previousEditor",
+            ]
+        },
+        {
+            "before":["<S-l>"],
+            "commands": [
+                "workbench.action.nextEditor",
+            ]
+        },
+    ]
 
+   
 }

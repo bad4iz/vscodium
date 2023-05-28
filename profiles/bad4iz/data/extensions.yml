@@ -2,9 +2,21 @@ disabled:
   - id: asvetliakov.vscode-neovim
     uuid: caf8995c-5426-4bf7-9d01-f7968ebd49bb
 enabled:
+  - id: alefragnani.Bookmarks
+    uuid: b689fcc8-d494-4dbf-a228-2c694a578afc
+  - id: alefragnani.numbered-bookmarks
+    uuid: null
+  - id: debens.sort-js-object
+    uuid: null
+  - id: esbenp.prettier-vscode
+    uuid: 96fa4707-6983-4489-b7c5-d5ffdfdcce90
   - id: genieai.chatgpt-vscode
     uuid: daf35080-6889-46fc-89bf-288dce8f8ed2
   - id: HuynhDuong.nvtokyo-theme
+    uuid: null
+  - id: rvest.vs-code-prettier-eslint
+    uuid: d4b06bd6-36a0-469f-be55-c0a73413b688
+  - id: ue.alphabetical-sorter
     uuid: null
   - id: vscodevim.vim
     uuid: d96e79c6-8b25-4be3-8545-0e0ecefcae03
