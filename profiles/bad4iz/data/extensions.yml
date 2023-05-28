@@ -17,11 +17,11 @@ enabled:
   - id: HuynhDuong.nvtokyo-theme
     uuid: null
   - id: kimlimjustin.jsdoc-generator
-    uuid: null
+    uuid: b2e53066-c960-4654-a2a3-0d52ca6145e7
   - id: mintlify.document
-    uuid: null
+    uuid: de6400ad-0c12-434b-aa5a-6017c93dac64
   - id: oouo-diogo-perdigao.docthis
-    uuid: null
+    uuid: e4f871bb-b27e-4ee9-b517-998d11af8d18
   - id: rvest.vs-code-prettier-eslint
     uuid: d4b06bd6-36a0-469f-be55-c0a73413b688
   - id: Serhioromano.vscode-gitflow
@@ -41,6 +41,6 @@ enabled:
   - id: WallabyJs.wallaby-vscode
     uuid: null
   - id: wiggin77.codedox
-    uuid: 31559b1f-ac25-4830-bfbc-eccf24c75452
+    uuid: null
   - id: zokugun.cron-tasks
     uuid: eb05256f-c7aa-4554-95c6-1bb8e30e0cea

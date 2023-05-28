@@ -1,1 +1,62 @@
-[]
+[
+  {
+    "command": "selectNextSuggestion",
+    "key": "ctrl+j",
+    "when": "editorTextFocus && suggestWidgetMultipleSuggestions && suggestWidgetVisible"
+  },
+  {
+    "command": "selectPrevSuggestion",
+    "key": "ctrl+k",
+    "when": "editorTextFocus && suggestWidgetMultipleSuggestions && suggestWidgetVisible"
+  },
+  {
+    "command": "workbench.action.quickOpenNavigateNext",
+    "key": "ctrl+j",
+    "when": "inQuickOpen"
+  },
+  {
+    "command": "selectNextSuggestion",
+    "key": "tab",
+    "when": "editorTextFocus && suggestWidgetMultipleSuggestions && suggestWidgetVisible"
+  },
+  {
+    "command": "workbench.action.quickOpenNavigateNext",
+    "key": "tab",
+    "when": "inQuickOpen"
+  },
+  {
+    "command": "selectPrevSuggestion",
+    "key": "shit+tab",
+    "when": "editorTextFocus && suggestWidgetMultipleSuggestions && suggestWidgetVisible"
+  },
+  {
+    "command": "selectPrevSuggestion",
+    "key": "shift+tab",
+    "when": "editorTextFocus && suggestWidgetMultipleSuggestions && suggestWidgetVisible"
+  },
+  {
+    "command": "workbench.action.quickOpenNavigatePrevious",
+    "key": "shift+tab",
+    "when": "inQuickOpen"
+  },
+  {
+    "command": "workbench.action.quickOpenNavigatePrevious",
+    "key": "ctrl+k",
+    "when": "inQuickOpen"
+  },
+  {
+    "command": "list.select",
+    "key": "enter",
+    "when": "explorerViewletVisible && filesExplorerFocus"
+  },
+  {
+    "command": "list.select",
+    "key": "l",
+    "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+  },
+  {
+    "command": "list.toggleExpand",
+    "key": "o",
+    "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+  }
+]
