@@ -122,7 +122,8 @@
                 "workbench.action.nextEditor",
             ]
         },
-    ]
+    ],
+    "git.autofetch": true
 
    
 }

@@ -6,6 +6,8 @@ enabled:
     uuid: b689fcc8-d494-4dbf-a228-2c694a578afc
   - id: alefragnani.numbered-bookmarks
     uuid: null
+  - id: crystal-spider.jsdoc-generator
+    uuid: null
   - id: debens.sort-js-object
     uuid: null
   - id: esbenp.prettier-vscode
@@ -14,8 +16,16 @@ enabled:
     uuid: daf35080-6889-46fc-89bf-288dce8f8ed2
   - id: HuynhDuong.nvtokyo-theme
     uuid: null
+  - id: kimlimjustin.jsdoc-generator
+    uuid: null
+  - id: mintlify.document
+    uuid: null
+  - id: oouo-diogo-perdigao.docthis
+    uuid: null
   - id: rvest.vs-code-prettier-eslint
     uuid: d4b06bd6-36a0-469f-be55-c0a73413b688
+  - id: Serhioromano.vscode-gitflow
+    uuid: 2de4dba1-aab6-47ec-9f24-5dcf1b5e941b
   - id: ue.alphabetical-sorter
     uuid: null
   - id: vscodevim.vim
@@ -30,5 +40,7 @@ enabled:
     uuid: null
   - id: WallabyJs.wallaby-vscode
     uuid: null
+  - id: wiggin77.codedox
+    uuid: 31559b1f-ac25-4830-bfbc-eccf24c75452
   - id: zokugun.cron-tasks
     uuid: eb05256f-c7aa-4554-95c6-1bb8e30e0cea
