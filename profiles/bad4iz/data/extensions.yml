@@ -2,6 +2,8 @@ disabled:
   - id: asvetliakov.vscode-neovim
     uuid: caf8995c-5426-4bf7-9d01-f7968ebd49bb
 enabled:
+  - id: HuynhDuong.nvtokyo-theme
+    uuid: null
   - id: vscodevim.vim
     uuid: d96e79c6-8b25-4be3-8545-0e0ecefcae03
   - id: Vue.volar
@@ -9,10 +11,10 @@ enabled:
   - id: WakaTime.vscode-wakatime
     uuid: f2fd462f-f1bd-4c62-b54f-59a4e5ffc6a3
   - id: WallabyJs.console-ninja
-    uuid: 6a994cdf-21a5-4e80-b0a5-601acdad9bf9
+    uuid: null
   - id: WallabyJs.quokka-vscode
-    uuid: aae0701b-111f-49c1-9000-abd37a442f28
+    uuid: null
   - id: WallabyJs.wallaby-vscode
-    uuid: 6766254a-8e43-4ebc-9b89-e5be39cb5318
+    uuid: null
   - id: zokugun.cron-tasks
     uuid: eb05256f-c7aa-4554-95c6-1bb8e30e0cea
