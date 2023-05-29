@@ -30,6 +30,8 @@ enabled:
     uuid: null
   - id: vscodevim.vim
     uuid: d96e79c6-8b25-4be3-8545-0e0ecefcae03
+  - id: VSpaceCode.whichkey
+    uuid: 47ddeb9c-b4bb-4594-906b-412886e20e47
   - id: Vue.volar
     uuid: a5223b43-8621-4351-a14e-3d560f85f277
   - id: WakaTime.vscode-wakatime
