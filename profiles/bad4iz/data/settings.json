@@ -68,10 +68,10 @@
     }
   ],
   "vim.normalModeKeyBindingsNonRecursive": [
-    {
-      "after": ["d", "d"],
-      "before": ["<leader>", "d"]
-    },
+    // {
+    //   "after": ["d", "d"],
+    //   "before": ["<leader>", "d"]
+    // },
     {
       "before": ["<C-n>"],
       "commands": [":nohl"]
@@ -80,6 +80,26 @@
       "before": ["K"],
       "commands": ["lineBreakInsert"],
       "silent": true
+    },
+    // {
+    //   "before": ["<leader>" , "s"],
+    //   "commands": ["leap.find"]
+    // }
+    {
+      "before": ["leader", "s"],
+      "after": ["leader", "leader", "s"]
+    },
+    {
+      "before": ["leader", "F"],
+      "after": ["leader", "leader", "F"]
+    },
+    {
+      "before": ["leader", "g", "g"],
+      "command": "chatgpt-vscode.freeText"
+    },
+    {
+      "before": ["leader", "l", "a"],
+      "command": ["editor.action.quickFix"]
     }
   ],
   "vim.scroll": 10,
@@ -90,9 +110,9 @@
   "vim.useCtrlKeys": true,
   "vim.useSystemClipboard": true,
   "workbench.colorCustomizations": {
-    "statusBar.background": "#5f00af",
-    "statusBar.debuggingBackground": "#5f00af",
-    "statusBar.noFolderBackground": "#5f00af"
+    "statusBar.background": "#4444db",
+    "statusBar.debuggingBackground": "#4444db",
+    "statusBar.noFolderBackground": "#4444db"
   },
   "workbench.colorTheme": "Tokyo Night nv"
 }

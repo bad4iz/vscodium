@@ -26,6 +26,8 @@ enabled:
     uuid: 7d7a7361-89e6-4db4-ab63-b3c417aa2fcd
   - id: mintlify.document
     uuid: de6400ad-0c12-434b-aa5a-6017c93dac64
+  - id: MurlocCra4ler.leap
+    uuid: null
   - id: rvest.vs-code-prettier-eslint
     uuid: d4b06bd6-36a0-469f-be55-c0a73413b688
   - id: Serhioromano.vscode-gitflow
