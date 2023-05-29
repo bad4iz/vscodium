@@ -3,6 +3,8 @@ disabled:
     uuid: caf8995c-5426-4bf7-9d01-f7968ebd49bb
   - id: oouo-diogo-perdigao.docthis
     uuid: 00000000-0000-0000-0000-000000000000
+  - id: sgryjp.vscode-stable-sort
+    uuid: 65a4ce0d-1c7f-4abc-a802-0159dddc0fb9
 enabled:
   - id: alefragnani.Bookmarks
     uuid: b689fcc8-d494-4dbf-a228-2c694a578afc
@@ -28,10 +30,14 @@ enabled:
     uuid: de6400ad-0c12-434b-aa5a-6017c93dac64
   - id: MurlocCra4ler.leap
     uuid: null
+  - id: richie5um2.vscode-sort-json
+    uuid: 3fb77af3-b8b3-4cb9-9137-f555bd80e2b1
   - id: rvest.vs-code-prettier-eslint
     uuid: d4b06bd6-36a0-469f-be55-c0a73413b688
   - id: Serhioromano.vscode-gitflow
     uuid: 2de4dba1-aab6-47ec-9f24-5dcf1b5e941b
+  - id: ue.alphabetical-sorter
+    uuid: null
   - id: vscodevim.vim
     uuid: d96e79c6-8b25-4be3-8545-0e0ecefcae03
   - id: Vue.volar
