@@ -1,8 +1,6 @@
 disabled:
   - id: asvetliakov.vscode-neovim
     uuid: caf8995c-5426-4bf7-9d01-f7968ebd49bb
-  - id: oouo-diogo-perdigao.docthis
-    uuid: 00000000-0000-0000-0000-000000000000
   - id: sgryjp.vscode-stable-sort
     uuid: 65a4ce0d-1c7f-4abc-a802-0159dddc0fb9
 enabled:
@@ -34,8 +32,8 @@ enabled:
     uuid: 7d7a7361-89e6-4db4-ab63-b3c417aa2fcd
   - id: mintlify.document
     uuid: de6400ad-0c12-434b-aa5a-6017c93dac64
-  - id: MurlocCra4ler.leap
-    uuid: null
+  - id: oouo-diogo-perdigao.docthis
+    uuid: e4f871bb-b27e-4ee9-b517-998d11af8d18
   - id: richie5um2.vscode-sort-json
     uuid: 3fb77af3-b8b3-4cb9-9137-f555bd80e2b1
   - id: rvest.vs-code-prettier-eslint
