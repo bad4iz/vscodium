@@ -68,6 +68,10 @@
     }
   ],
   "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<space>"],
+      "commands": ["whichkey.show"]
+    },
     // {
     //   "after": ["d", "d"],
     //   "before": ["<leader>", "d"]
@@ -86,12 +90,12 @@
     //   "commands": ["leap.find"]
     // }
     {
-      "before": ["leader", "s"],
-      "after": ["leader", "leader", "s"]
+      "after": ["leader", "leader", "s"],
+      "before": ["s"]
     },
     {
-      "before": ["leader", "F"],
-      "after": ["leader", "leader", "F"]
+      "after": ["leader", "leader", "F"],
+      "before": ["F"]
     },
     {
       "before": ["leader", "g", "g"],
@@ -109,6 +113,22 @@
   "vim.statusBarColors.normal": "#4444db",
   "vim.useCtrlKeys": true,
   "vim.useSystemClipboard": true,
+  "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<space>"],
+      "commands": ["whichkey.show"]
+    }
+  ],
+  "whichkey.bindingOverrides": [
+    {
+      "command": "workbench.action.closeActiveEditor",
+      "keys": "c",
+      "name": "Close tab",
+      "type": "command"
+    }
+  ],
+  "whichkey.delay": 0,
+  "whichkey.sortOrder": "alphabetically",
   "workbench.colorCustomizations": {
     "editor.selectionBackground": "#135564",
     "editor.selectionHighlightBackground": "#135564",

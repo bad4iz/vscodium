@@ -65,7 +65,7 @@ workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   ench.view.editSessions\",\"themeIcon\":{\"id\":\"edit-sessions-view-icon\"},\
   \"name\":\"Cloud Changes\",\"isBuiltin\":true,\"views\":[]}]"
 workbench.auxiliaryBar.size: "256"
-workbench.editor.languageDetectionOpenedLanguages.global: '[["lua",true],["json",true],["wallaby-timeline",true],["yaml",true],["git-commit",true],["jsonc",true],["typescriptreact",true],["javascriptreact",true],["javascript",true],["plaintext",true],["vue",true],["typescript",true]]'
+workbench.editor.languageDetectionOpenedLanguages.global: '[["lua",true],["json",true],["wallaby-timeline",true],["yaml",true],["git-commit",true],["typescriptreact",true],["javascriptreact",true],["javascript",true],["plaintext",true],["jsonc",true],["vue",true],["typescript",true]]'
 workbench.explorer.views.state.hidden: '[{"id":"outline","isHidden":false},{"id":"timeline","isHidden":false},{"id":"workbench.explorer.openEditorsView","isHidden":false},{"id":"workbench.explorer.emptyView","isHidden":false},{"id":"workbench.explorer.fileView","isHidden":false},{"id":"npm","isHidden":false},{"id":"chatgpt.chatView","isHidden":false}]'
 workbench.grid.size: '{"height":770,"width":1026}'
 workbench.panel.alignment: justify
@@ -78,7 +78,7 @@ workbench.panel.pinnedPanels: '[{"id":"workbench.panel.markers","name":"Problems
   Results","pinned":true,"order":3,"visible":false},{"id":"refactorPreview","name":"Refactor
   Preview","pinned":true,"visible":false}]'
 workbench.panel.repl.hidden: '[{"id":"workbench.panel.repl.view","isHidden":false}]'
-workbench.panel.size: "215"
+workbench.panel.size: "1029"
 workbench.panel.testResults.state.hidden: '[{"id":"workbench.panel.testResults.view","isHidden":false}]'
 workbench.scm.views.state.hidden: '[{"id":"workbench.scm.repositories","isHidden":true},{"id":"workbench.scm","isHidden":false},{"id":"gitflowExplorer","isHidden":false},{"id":"gitflowTags","isHidden":false}]'
 workbench.sideBar.size: "328"
@@ -97,6 +97,6 @@ workbench.view.extension.test.state.hidden: '[{"id":"workbench.view.testing","is
 workbench.view.extension.wallaby.state.hidden: '[{"id":"quokkaValueExplorer","isHidden":false},{"id":"wallaby.valueExplorer","isHidden":false},{"id":"wallaby.traceExplorer","isHidden":false},{"id":"wallaby.testFileCoverageExplorer","isHidden":false}]'
 workbench.view.extensions.state.hidden: '[{"id":"workbench.views.extensions.installed","isHidden":false},{"id":"workbench.views.extensions.searchOutdated","isHidden":false},{"id":"workbench.views.extensions.workspaceRecommendations","isHidden":false},{"id":"workbench.views.extensions.popular","isHidden":false},{"id":"workbench.views.extensions.searchRecentlyUpdated","isHidden":false},{"id":"workbench.views.extensions.otherRecommendations","isHidden":false},{"id":"extensions.recommendedList","isHidden":false},{"id":"workbench.views.extensions.enabled","isHidden":true},{"id":"workbench.views.extensions.disabled","isHidden":true},{"id":"workbench.views.extensions.marketplace","isHidden":false},{"id":"workbench.views.extensions.searchInstalled","isHidden":false},{"id":"workbench.views.extensions.searchEnabled","isHidden":false},{"id":"workbench.views.extensions.searchDisabled","isHidden":false},{"id":"workbench.views.extensions.searchBuiltin","isHidden":false},{"id":"workbench.views.extensions.searchWorkspaceUnsupported","isHidden":false},{"id":"workbench.views.extensions.builtinFeatureExtensions","isHidden":false},{"id":"workbench.views.extensions.builtinThemeExtensions","isHidden":false},{"id":"workbench.views.extensions.builtinProgrammingLanguageExtensions","isHidden":false},{"id":"workbench.views.extensions.untrustedUnsupportedExtensions","isHidden":false},{"id":"workbench.views.extensions.untrustedPartiallySupportedExtensions","isHidden":false},{"id":"workbench.views.extensions.virtualUnsupportedExtensions","isHidden":false},{"id":"workbench.views.extensions.virtualPartiallySupportedExtensions","isHidden":false},{"id":"workbench.views.extensions.deprecatedExtensions","isHidden":false}]'
 workbench.view.search.state.hidden: '[{"id":"workbench.view.search","isHidden":false}]'
-workbench.views.extensions.installed.size: "25"
+workbench.views.extensions.installed.size: "28"
 workbench.welcomePage.walkthroughMetadata: '[["vscode.typescript-language-features#tempNodejsWelcome",{"firstSeen":1684663056681,"stepIDs":[],"manaullyOpened":false}]]'
 zokugun.cron-tasks: '{"version":"0.1.2"}'

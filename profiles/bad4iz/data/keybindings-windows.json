@@ -60,7 +60,116 @@
     "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
   },
   {
-    "key": "ctrl+alt+f",
-    "command": "eslint.executeAutofix"
+    "command": "eslint.executeAutofix",
+    "key": "ctrl+alt+f"
+  },
+  {
+    "command": "list.toggleExpand",
+    "key": "o",
+    "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+  },
+  {
+    "command": "explorer.newFile",
+    "key": "a",
+    "when": "filesExplorerFocus && !inputFocus"
+  },
+  {
+    "command": "explorer.newFolder",
+    "key": "shift+a",
+    "when": "filesExplorerFocus && !inputFocus"
+  },
+  {
+    "command": "workbench.action.focusActiveEditorGroup",
+    "key": "ctrl+l",
+    "when": "sideBarFocus"
+  },
+  {
+    "command": "workbench.action.focusActiveEditorGroup",
+    "key": "ctrl+k",
+    "when": "terminalFocus"
+  },
+  {
+    "command": "workbench.action.terminal.focus",
+    "key": "ctrl+shift+t",
+    "when": "!terminalFocus"
+  },
+  {
+    "command": "-editor.action.insertLineAfter",
+    "key": "ctrl+j",
+    "when": "editorTextFocus && neovim.ctrlKeysInsert && !neovim.recording && neovim.mode == 'insert'"
+  },
+  {
+    "command": "workbench.action.terminal.focus",
+    "key": "alt+j",
+    "when": "!terminalFocus"
+  },
+  {
+    "command": "workbench.action.togglePanel",
+    "key": "ctrl+shift+t"
+  },
+  {
+    "command": "-workbench.action.togglePanel",
+    "key": "ctrl+j"
+  },
+  {
+    "command": "renameFile",
+    "key": "r",
+    "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
+  },
+  {
+    "command": "-renameFile",
+    "key": "enter",
+    "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
+  },
+  {
+    "command": "deleteFile",
+    "key": "d",
+    "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceReadonly && !inputFocus"
+  },
+  {
+    "command": "filesExplorer.copy",
+    "key": "y",
+    "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !inputFocus"
+  },
+  {
+    "command": "filesExplorer.cut",
+    "key": "x",
+    "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !inputFocus"
+  },
+  {
+    "command": "filesExplorer.paste",
+    "key": "p",
+    "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceReadonly && !inputFocus"
+  },
+  {
+    "command": "explorer.openToSide",
+    "key": "v",
+    "when": "explorerViewletFocus && explorerViewletVisible && !inputFocus"
+  },
+  {
+    "key": "ctrl+.",
+    "command": "-docs.write",
+    "when": "editorTextFocus && config.docwriter.hotkey.windows == 'Ctrl + .' && editorLangId =~ /typescript|javascript|python|php|java|c|cpp|csharp|dart|ruby|go|rust/"
+  },
+  {
+    "key": "ctrl+.",
+    "command": "-docs.write",
+    "when": "false"
+  },
+  {
+    "key": "shift+alt+k",
+    "command": "workbench.action.moveEditorToAboveGroup"
+  },
+  {
+    "key": "shift+alt+j",
+    "command": "workbench.action.moveEditorToBelowGroup"
+  },
+  {
+    "key": "shift+alt+l",
+    "command": "workbench.action.moveEditorToLeftGroup"
+  },
+  {
+    "key": "shift+alt+h",
+    "command": "workbench.action.moveEditorToRightGroup"
   }
 ]
