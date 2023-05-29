@@ -110,9 +110,11 @@
   "vim.useCtrlKeys": true,
   "vim.useSystemClipboard": true,
   "workbench.colorCustomizations": {
-    "statusBar.background": "#4444db",
-    "statusBar.debuggingBackground": "#4444db",
-    "statusBar.noFolderBackground": "#4444db"
+    "editor.selectionBackground": "#135564",
+    "editor.selectionHighlightBackground": "#135564",
+    "statusBar.background": "#5f0000",
+    "statusBar.noFolderBackground": "#5f0000",
+    "statusBar.debuggingBackground": "#5f0000"
   },
   "workbench.colorTheme": "Tokyo Night nv"
 }
