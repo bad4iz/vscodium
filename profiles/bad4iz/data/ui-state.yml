@@ -84,10 +84,10 @@ workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   Changes\",\"isBuiltin\":true,\"views\":[{\"when\":\"editSessionsShowView\"}]}\
   ]"
 workbench.auxiliaryBar.size: "256"
-workbench.editor.languageDetectionOpenedLanguages.global: '[["lua",true],["typescriptreact",true],["json",true],["wallaby-timeline",true],["yaml",true],["vue",true],["git-commit",true],["plaintext",true],["jsonc",true],["javascriptreact",true],["typescript",true],["javascript",true]]'
+workbench.editor.languageDetectionOpenedLanguages.global: '[["lua",true],["typescriptreact",true],["json",true],["wallaby-timeline",true],["yaml",true],["vue",true],["git-commit",true],["javascriptreact",true],["plaintext",true],["jsonc",true],["javascript",true],["typescript",true]]'
 workbench.explorer.views.state.hidden: '[{"id":"outline","isHidden":false},{"id":"timeline","isHidden":false},{"id":"workbench.explorer.openEditorsView","isHidden":false},{"id":"workbench.explorer.emptyView","isHidden":false},{"id":"workbench.explorer.fileView","isHidden":false},{"id":"npm","isHidden":false},{"id":"chatgpt.chatView","isHidden":false}]'
 workbench.grid.size: '{"height":770,"width":1026}'
-workbench.panel.alignment: center
+workbench.panel.alignment: justify
 workbench.panel.lastNonMaximizedHeight: "300"
 workbench.panel.lastNonMaximizedWidth: "300"
 workbench.panel.markers.hidden: '[{"id":"workbench.panel.markers.view","isHidden":false}]'
@@ -97,7 +97,7 @@ workbench.panel.pinnedPanels: '[{"id":"workbench.panel.markers","name":"Problems
   Results","pinned":true,"order":3,"visible":false},{"id":"refactorPreview","name":"Refactor
   Preview","pinned":true,"visible":false}]'
 workbench.panel.repl.hidden: '[{"id":"workbench.panel.repl.view","isHidden":false}]'
-workbench.panel.size: "245"
+workbench.panel.size: "560"
 workbench.panel.testResults.state.hidden: '[{"id":"workbench.panel.testResults.view","isHidden":false}]'
 workbench.scm.views.state.hidden: '[{"id":"workbench.scm.repositories","isHidden":true},{"id":"workbench.scm","isHidden":false},{"id":"gitflowExplorer","isHidden":false},{"id":"gitflowTags","isHidden":false}]'
 workbench.sideBar.size: "514"

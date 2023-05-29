@@ -10,6 +10,8 @@ enabled:
     uuid: null
   - id: crystal-spider.jsdoc-generator
     uuid: null
+  - id: dbaeumer.vscode-eslint
+    uuid: 583b2b34-2c1e-4634-8c0b-0b82e283ea3a
   - id: debens.sort-js-object
     uuid: null
   - id: esbenp.prettier-vscode
@@ -20,6 +22,8 @@ enabled:
     uuid: null
   - id: kimlimjustin.jsdoc-generator
     uuid: b2e53066-c960-4654-a2a3-0d52ca6145e7
+  - id: manuth.eslint-language-service
+    uuid: 7d7a7361-89e6-4db4-ab63-b3c417aa2fcd
   - id: mintlify.document
     uuid: de6400ad-0c12-434b-aa5a-6017c93dac64
   - id: rvest.vs-code-prettier-eslint
@@ -28,8 +32,6 @@ enabled:
     uuid: 2de4dba1-aab6-47ec-9f24-5dcf1b5e941b
   - id: vscodevim.vim
     uuid: d96e79c6-8b25-4be3-8545-0e0ecefcae03
-  - id: VSpaceCode.whichkey
-    uuid: 47ddeb9c-b4bb-4594-906b-412886e20e47
   - id: Vue.volar
     uuid: a5223b43-8621-4351-a14e-3d560f85f277
   - id: WakaTime.vscode-wakatime
