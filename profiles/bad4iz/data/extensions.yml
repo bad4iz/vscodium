@@ -1,6 +1,8 @@
 disabled:
   - id: asvetliakov.vscode-neovim
     uuid: caf8995c-5426-4bf7-9d01-f7968ebd49bb
+  - id: oouo-diogo-perdigao.docthis
+    uuid: 00000000-0000-0000-0000-000000000000
 enabled:
   - id: alefragnani.Bookmarks
     uuid: b689fcc8-d494-4dbf-a228-2c694a578afc
@@ -20,14 +22,10 @@ enabled:
     uuid: b2e53066-c960-4654-a2a3-0d52ca6145e7
   - id: mintlify.document
     uuid: de6400ad-0c12-434b-aa5a-6017c93dac64
-  - id: oouo-diogo-perdigao.docthis
-    uuid: e4f871bb-b27e-4ee9-b517-998d11af8d18
   - id: rvest.vs-code-prettier-eslint
     uuid: d4b06bd6-36a0-469f-be55-c0a73413b688
   - id: Serhioromano.vscode-gitflow
     uuid: 2de4dba1-aab6-47ec-9f24-5dcf1b5e941b
-  - id: ue.alphabetical-sorter
-    uuid: null
   - id: vscodevim.vim
     uuid: d96e79c6-8b25-4be3-8545-0e0ecefcae03
   - id: VSpaceCode.whichkey

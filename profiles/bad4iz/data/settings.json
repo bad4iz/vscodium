@@ -23,134 +23,71 @@
   "vim.incsearch": true,
   "vim.insertModeKeyBindings": [
     {
-      "after": [
-        "<Esc>"
-      ],
-      "before": [
-        "j",
-        "j"
-      ]
+      "after": ["<Esc>"],
+      "before": ["j", "j"]
     }
   ],
   "vim.leader": "<space>",
   "vim.normalModeKeyBindings": [
     {
-      "after": [
-        "shift+tab"
-      ],
+      "after": ["shift+tab"],
       "command": "workbench.action.quickOpenNavigatePrevious",
       "when": "inQuickOpen"
     },
     {
-      "before": [
-        "<leader>",
-        "m"
-      ],
-      "commands": [
-        "bookmarks.toggle"
-      ]
+      "before": ["<leader>", "m"],
+      "commands": ["bookmarks.toggle"]
     },
     {
-      "before": [
-        "<leader>",
-        "b"
-      ],
-      "commands": [
-        "bookmarks.list"
-      ]
+      "before": ["<leader>", "b"],
+      "commands": ["bookmarks.list"]
     },
     {
-      "before": [
-        "<C-h>"
-      ],
-      "commands": [
-        "workbench.action.navigateLeft"
-      ]
+      "before": ["<C-h>"],
+      "commands": ["workbench.action.navigateLeft"]
     },
     {
-      "before": [
-        "<C-l>"
-      ],
-      "commands": [
-        "workbench.action.navigateRight"
-      ]
+      "before": ["<C-l>"],
+      "commands": ["workbench.action.navigateRight"]
     },
     {
-      "before": [
-        "<C-j>"
-      ],
-      "commands": [
-        "workbench.action.navigateDown"
-      ]
+      "before": ["<C-j>"],
+      "commands": ["workbench.action.navigateDown"]
     },
     {
-      "before": [
-        "<C-k>"
-      ],
-      "commands": [
-        "workbench.action.navigateUp"
-      ]
+      "before": ["<C-k>"],
+      "commands": ["workbench.action.navigateUp"]
     },
     {
-      "before": [
-        "<S-h>"
-      ],
-      "commands": [
-        "workbench.action.previousEditor"
-      ]
+      "before": ["<S-h>"],
+      "commands": ["workbench.action.previousEditor"]
     },
     {
-      "before": [
-        "<S-l>"
-      ],
-      "commands": [
-        "workbench.action.nextEditor"
-      ]
+      "before": ["<S-l>"],
+      "commands": ["workbench.action.nextEditor"]
     }
   ],
   "vim.normalModeKeyBindingsNonRecursive": [
     {
-      "after": [
-        "d",
-        "d"
-      ],
-      "before": [
-        "<leader>",
-        "d"
-      ]
+      "after": ["d", "d"],
+      "before": ["<leader>", "d"]
     },
     {
-      "before": [
-        "<C-n>"
-      ],
-      "commands": [
-        ":nohl"
-      ]
+      "before": ["<C-n>"],
+      "commands": [":nohl"]
     },
     {
-      "before": [
-        "K"
-      ],
-      "commands": [
-        "lineBreakInsert"
-      ],
+      "before": ["K"],
+      "commands": ["lineBreakInsert"],
       "silent": true
     },
     {
-      "before": [
-        "<space>"
-      ],
-      "commands": [
-        "whichkey.show"
-      ]
+      "before": ["<space>"],
+      "commands": ["whichkey.show"]
     },
     {
-      "before": [
-        "<space>"
-      ],
-      "commands": [
-        "whichkey.show"
-      ]
+      "before": ["<space>"],
+      "commands": ["whichkey.show"]
     }
   ],
   "vim.scroll": 10,
@@ -162,17 +99,14 @@
   "vim.useSystemClipboard": true,
   "vim.visualModeKeyBindingsNonRecursive": [
     {
-      "before": [
-        "<space>"
-      ],
-      "commands": [
-        "whichkey.show"
-      ]
+      "before": ["<space>"],
+      "commands": ["whichkey.show"]
     }
   ],
   "workbench.colorCustomizations": {
     "statusBar.background": "#4444db",
     "statusBar.debuggingBackground": "#4444db",
     "statusBar.noFolderBackground": "#4444db"
-  }
+  },
+  "workbench.colorTheme": "Tokyo Night nv"
 }
