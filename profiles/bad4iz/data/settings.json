@@ -4,7 +4,7 @@
   },
   "editor.cursorSurroundingLines": 10,
   "editor.formatOnSave": true,
-  "files.autoSave": "afterDelay",
+  "files.autoSave": "onFocusChange",
   "genieai.enableConversationHistory": true,
   "git.autofetch": true,
   "syncSettings.crons": {
@@ -136,5 +136,8 @@
     "statusBar.noFolderBackground": "#4444db",
     "statusBar.debuggingBackground": "#4444db"
   },
-  "workbench.colorTheme": "Tokyo Night nv"
+  "workbench.colorTheme": "Tokyo Night nv",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }

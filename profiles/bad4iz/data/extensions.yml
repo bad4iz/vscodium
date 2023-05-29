@@ -10,6 +10,8 @@ enabled:
     uuid: b689fcc8-d494-4dbf-a228-2c694a578afc
   - id: alefragnani.numbered-bookmarks
     uuid: null
+  - id: bodil.file-browser
+    uuid: 97a82b1e-e6f7-4519-b1fc-f6be103e3824
   - id: crystal-spider.jsdoc-generator
     uuid: null
   - id: dbaeumer.vscode-eslint
@@ -22,6 +24,10 @@ enabled:
     uuid: daf35080-6889-46fc-89bf-288dce8f8ed2
   - id: HuynhDuong.nvtokyo-theme
     uuid: null
+  - id: jacobdufault.fuzzy-search
+    uuid: c2ebe7f7-8974-4ceb-a4a5-aea798305313
+  - id: kahole.magit
+    uuid: 4d965b97-6bfd-43d8-882c-d4dfce310168
   - id: kimlimjustin.jsdoc-generator
     uuid: b2e53066-c960-4654-a2a3-0d52ca6145e7
   - id: manuth.eslint-language-service
@@ -40,6 +46,8 @@ enabled:
     uuid: null
   - id: vscodevim.vim
     uuid: d96e79c6-8b25-4be3-8545-0e0ecefcae03
+  - id: VSpaceCode.vspacecode
+    uuid: 1c81ab96-0424-43c4-b356-fe408a1bd1cf
   - id: VSpaceCode.whichkey
     uuid: 47ddeb9c-b4bb-4594-906b-412886e20e47
   - id: Vue.volar
