@@ -58,5 +58,9 @@
     "command": "list.toggleExpand",
     "key": "o",
     "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+  },
+  {
+    "key": "ctrl+alt+f",
+    "command": "eslint.executeAutofix"
   }
 ]
